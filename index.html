@@ -12,13 +12,11 @@
     />
   </head>
   <body>
-    <h1>new trading store</h1>
-
-    <nav>
+    <nav class="blue-grey z-depth-1" lighten-2>
       <div class="nav-wrapper">
-        <a href="#!" class="brand-logo">Logo</a>
+        <a href="#!" class="black-text">HOME</a>
         <a href="#" data-target="mobile-demo" class="sidenav-trigger"
-          ><i class="material-icons">store</i></a
+          ><i class="material-icons black-text">store</i></a
         >
         <ul class="right hide-on-med-and-down">
           <li><a href="sass.html">Sass</a></li>
@@ -30,12 +28,27 @@
     </nav>
 
     <ul class="sidenav" id="mobile-demo">
-      <li><a href="sass.html">Sass</a></li>
-      <li><a href="badges.html">Components</a></li>
-      <li><a href="collapsible.html">Javascript</a></li>
-      <li><a href="mobile.html">Mobile</a></li>
+      <li>
+        <div class="user-view">
+          <div class="background">
+            <img src="images/office.jpg" />
+          </div>
+          <a href="#user"><img class="circle" src="images/yuna.jpg" /></a>
+          <a href="#name"><span class="white-text name">John Doe</span></a>
+          <a href="#email"
+            ><span class="white-text email">jdandturk@gmail.com</span></a
+          >
+        </div>
+      </li>
+      <li>
+        <a href="#!"><i class="material-icons">cloud</i>First Link With Icon</a>
+      </li>
+      <li><a href="#!">Second Link</a></li>
+      <li><div class="divider"></div></li>
+      <li><a class="subheader">Subheader</a></li>
+      <li><a class="waves-effect" href="#!">Third Link With Waves</a></li>
     </ul>
-
+    <h1>new trading store</h1>
     <h2>new algo</h2>
     <p>loading.......</p>
     <script src="./materialize/js/materialize.min.js"></script>
