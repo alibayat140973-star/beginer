@@ -71,3 +71,7 @@
   transform: scale(1.05);
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
 }
+
+.user_list_item.active .user_list_item.active .collapsible-header {
+  background-color: rgb(189, 182, 182);
+}
